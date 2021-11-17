@@ -1,12 +1,12 @@
 Package: ConvexCluster
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Type: Package
+Title: ADMM algorithm for convex clustering
+Version: 1.0.0
+Date: 2021-11-15
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Sowmya", "Kolluru", email = "sowmyakolluru@tamu.edu", role = c("aut", "cre"))
+Description: This package implements convex clustering algorithm. In particular, it uses alternate direction of multipliers methos algorithm to solve convex clustering problem.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
